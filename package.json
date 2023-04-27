@@ -1,0 +1,22 @@
+{
+  "name": "puppeteer-screenshot",
+  "version": "1.0.0",
+  "description": "puppeteer截图",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "generic-pool": "3.7.1",
+    "puppeteer": "^13.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "http-errors": "^2.0.0",
+    "nodemon": "^2.0.21"
+  }
+}
