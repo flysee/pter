@@ -27,6 +27,7 @@ const initPuppeteerPool = () => {
       puppeteer.launch({
         // headless:false,//有头模式
         args: [
+        '--lang=zh-CN',
           '--no-zygote',
           '--no-sandbox',
           '--disable-gpu',
